@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <title>Kanban</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header-logo">
+      <div class="header-logo__menu">
+        <button class="burger-button">
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+        </button>
+      </div>
+      <div class="header-logo__title">
+        Awesome Kanban Board
+      </div>
+    </div>
+    <div class="header-user">
+      <div class="header-user__button">
+        <button class="button-add">
+          <span class="button-image">
+          </span>
+          <span class="button-text">
+            Create new list
+          </span>
+        </button>
+      </div>
+      <div class="header-user__avatar">
+        <div class="user-image">
+          <img src="./src/img/header/user-avatar.png" alt="User avatar">
+        </div>
+        <div class="user-arrow">
+          <button class="arrow-button">
+            <span class="arrow"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <main class="main">
+    <div class="main-content">
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-statistics">
+      <div class="statistics-active__tasks">
+        Active tasks: <span class="count-active">0</span>
+      </div>
+      <div class="statistics-finished__tasks">
+        Finished tasks: <span class="count-finished">0</span>
+      </div>
+    </div>
+    <div class="footer-author">
+      Kanban board by NAME, YEAR
+    </div>
+  </footer>
+
+  <script src="src/js/index.js" type="module" defer></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 24px 17px 67px;
+  background-color: #0067A3;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.footer-statistics {
+  display: flex;
+}
+
+.statistics-active__tasks {
+  margin-right: 35px;
+}
